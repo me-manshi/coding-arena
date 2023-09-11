@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mainContainer {
+  border: 2px solid;
+  padding: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(52, 39, 135, 0.5),
+    rgb(74, 49, 157)
+  );
+  height: 100%;
+}
+.contentHeader {
+  /* border: 2px solid; */
+  margin: 3px;
+  padding-left: 3px;
+  /* color: white; */
+  font-weight: bold;
+  padding-top: 2px;
+  height: 250px;
+  background-color: rgb(141 26 109);
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 15px;
+  background-color: rgb(182, 41, 149);
+  height: 69px;
+  width: 850px;
+  padding-top: 4px;
+  margin-left: 40px;
+  /* margin-bottom: 3px; */
+
+}
+span {
+  padding-left: 17px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.creator {
+  padding-left: 17px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 40px;
+
+}
+.contentBody {
+  /* border: 2px solid; */
+  /* height: 700px; */
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  
+}
+.learning {
+  /* border: 2px solid; */
+  /* height: 600px; */
+  margin: 2px;
+  width: 50%;
+  margin: 5px;
+  font-size: 18px;
+  margin-left: 40px;
+
+}
+h3 {
+  /* border: 2px solid; */
+  margin: 2px;
+  padding-left: 17px;
+  font-size: 27px;
+  background-color:  rgb(182, 41, 149);
+  color: white;
+  height: 50px;
+  padding-top: 2px;
+  margin-top: 5px;
+}
+.inclusions {
+  /* border: 2px solid; */
+  margin: 2px;
+  padding-left: 17px;
+}
+.image img {
+  height: 320px;
+  width: 320px;
+  padding: 3px;
+}
+.desc{
+  /* border: 2px solid ; */
+  /* height: 50px; */
+  font-size: 17px;
+  /* padding: 10px; */
+  font-weight: bold;
+  background-color: white;
+  height: 150px;
+  /* border-radius: 5px; */
+  margin-top: 5px;
+  padding-top: 5px;
+  align-content: center;
+}
+.courseDesc{
+  border: 4px solid white ;
+  /* background-color: aqua; */
+  margin-left: 255px;
+  margin-top: -153px;
+  height: 490px;
+  /* background-color:  rgb(182, 41, 149);; */
+}
+
+.desc button{
+  margin-left: 110px;
+  background-color: rgb(86, 38, 131);
+  color: white;
+  height: 37px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.desc div{
+  margin-left: 10px;
+}
+
+.left ul{
+  list-style-type: none;
+}
+
+.left ul i{
+  margin-right: 3px;
+}
+
+.inclusions div i{
+  margin-right: 6px;
+  margin-left: 15px;
+}
+
+.contentHeader i{
+  margin-right: 2px;
+}
